@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sign in</title>
+  <style>
+    form{text-align : left;
+      background-color : black;
+      color : #207DB6;
+      padding : 10px;}
+    legend{color : #09F0F0;}
+    div{text-align: center;}
+    button{font-size: 15px;
+          border: 2px solid black;
+          border-radius: 5px;
+          background-color: #09F0F0;}
+  </style>
+</head>
+<body>
+    <form action="tnx.html" method="post">
+      <fieldset>
+        <legend>Sign In 2 ShArE YoUr THoughTS</legend>
+          <label for="name">First Name : </label>
+          <input id="name" type="text" placeholder="abcd" required>
+          <br><br>
+          <label for="name">Last Name : </label>
+          <input id="name" type="text" placeholder="wxyz" required>
+          <br><br>
+          <label for="age">Age : </label>
+          <input id="age" type="number" required>
+          <br><br>
+          <label for="mail">Gmail : </label>
+          <input id="mail" type="gmail" required>
+          <br><br>
+          <label for="pass">Password :</label>
+          <input id="pass" type="password" required>
+          <br><br>
+          Gender : <input type="radio" name="you">Male
+                   <input type="radio" name="you">Female
+          <br><br>
+          Your thoughts :<textarea rows="8" cols="80" placeholder="Enter message here"></textarea>
+          <br><br>
+          <h3>Write your Browser</h3>
+          <input list="browser">
+          <datalist id="browser">
+            <option value="Internet explorer" ></option>
+            <option value="Chrome"></option>
+            <option value="Brave"></option>
+          </datalist>
+          <br><br>
+          <select>
+            <option value="Contact us with Email" selected>Contact us with Email</option>
+            <option value="Contact us with Mobile">Contact us with Mobile</option>
+            <option value="Contact us with fax">Contact us with fax</option>
+          </select>
+          <br><br>
+          <div>
+            <button>Submit</button>
+          </div>
+      </fieldset>
+    </form>
+</body>
+</html>
